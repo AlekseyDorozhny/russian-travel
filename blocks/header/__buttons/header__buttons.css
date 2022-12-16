@@ -1,0 +1,5 @@
+.header__buttons {
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-end;
+}
