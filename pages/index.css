@@ -18,47 +18,121 @@
 
 /* Intro */
 
-.intro {
-  width: 690px;
-  margin: 0 auto 92px 148px;
-  border: 2px solid red;
-  min-width: 288px;
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item/_tickness/intro__list-item_tickness_none.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+
+/* Photo-grid */
+
+@import url(../blocks/photo-grid/photo-grid.css);
+
+/* Places */
+
+.places {
+  width: 77%;
+  margin: auto;
 }
 
-.intro__title {
-  font-size: 54px;
-  line-height: 1.1;
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 152px 460px;
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+  "title website"
+  "image paragraphs";
+}
+
+.place__title {
+  font-size: 72px;
+  line-height: 76px;
   font-weight: 900;
-  border: 2px solid yellow;
-  margin: 0;
-  margin-bottom: 40px;
+  grid-area: title;
 }
 
-.intro__text {
-  font-size: 16px;
+.place__image {
+  grid-area: image;
+}
+
+.place__website {
+  grid-area: website;
+  align-self: end;
+
+}
+
+.place_paragraphs {
+  grid-area: paragraphs;
+}
+
+.place__paragraph {
+  font-size: 18px;
   line-height: 163%;
   font-weight: normal;
-  border: 2px solid green;
-  margin: 0;
-  margin-bottom: 33px;
 }
 
-.intro__list-item {
+.place__url-heading {
   font-size: 12px;
-  line-height: 1.2;
-  font-weight: 700;
-  list-style: none;
-  text-align: left;
-}
-
-.intro__list-item_tickness_none {
+  line-height: 1;
   font-weight: normal;
+  letter-spacing: 2px;
+  color: #AAA;
+  margin: 0;
+  margin-bottom: 12px;
 }
 
-.intro__list {
-  border: 2px solid greenyellow;
+.place__link {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #FFF;
   margin: 0;
 }
+
+
+/* Cover */
+
+.cover {
+  width: 93%;
+  border: 2px solid gold;
+  margin: auto;
+  min-height: 740px;
+  text-align: center;
+
+}
+.cover__image {
+  background-image: url(../images/train-station.jpg);
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  border: 2px solid greenyellow;
+  position: absolute;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.cover__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.05;
+  max-width: 560px;
+  margin: auto;
+  margin-top: 245px;
+}
+
+.cover__subtitle {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  max-width: 360px;
+  margin: auto;
+  margin-top: 32px;
+}
+
+
 
 /* Fonts */
 
