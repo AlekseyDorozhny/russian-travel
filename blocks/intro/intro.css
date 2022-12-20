@@ -3,3 +3,23 @@
   margin: 0 auto 92px 148px;
   min-width: 288px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 94%;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 90%;
+    margin: 0 auto 64px;
+  }
+}

@@ -31,108 +31,34 @@
 
 /* Places */
 
-.places {
-  width: 77%;
-  margin: auto;
-}
+@import url(../blocks/places/places.css);
 
-.place {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 152px 460px;
-  row-gap: 48px;
-  column-gap: 40px;
-  grid-template-areas:
-  "title website"
-  "image paragraphs";
-}
+/* Place */
 
-.place__title {
-  font-size: 72px;
-  line-height: 76px;
-  font-weight: 900;
-  grid-area: title;
-}
-
-.place__image {
-  grid-area: image;
-}
-
-.place__website {
-  grid-area: website;
-  align-self: end;
-
-}
-
-.place_paragraphs {
-  grid-area: paragraphs;
-}
-
-.place__paragraph {
-  font-size: 18px;
-  line-height: 163%;
-  font-weight: normal;
-}
-
-.place__url-heading {
-  font-size: 12px;
-  line-height: 1;
-  font-weight: normal;
-  letter-spacing: 2px;
-  color: #AAA;
-  margin: 0;
-  margin-bottom: 12px;
-}
-
-.place__link {
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal;
-  color: #FFF;
-  margin: 0;
-}
-
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__website/place__website.css);
 
 /* Cover */
 
-.cover {
-  width: 93%;
-  border: 2px solid gold;
-  margin: auto;
-  min-height: 740px;
-  text-align: center;
-
-}
-.cover__image {
-  background-image: url(../images/train-station.jpg);
-  opacity: 0.6;
-  width: 100%;
-  height: 100%;
-  border: 2px solid greenyellow;
-  position: absolute;
-  object-fit: contain;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-.cover__title {
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 1.05;
-  max-width: 560px;
-  margin: auto;
-  margin-top: 245px;
-}
-
-.cover__subtitle {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
-  max-width: 360px;
-  margin: auto;
-  margin-top: 32px;
-}
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__link/cover__link.css);
 
 
+/* Footer */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
 
 /* Fonts */
 
