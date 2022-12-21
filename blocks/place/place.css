@@ -28,16 +28,12 @@
   }
 }
 
-
-
-
-
-
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .place {
     display: flex;
     flex-direction: column;
+    gap: 0 0;
+    margin-bottom: 50px;
   }
 }
 

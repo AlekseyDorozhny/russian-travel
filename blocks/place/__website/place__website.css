@@ -2,3 +2,11 @@
   grid-area: website;
   align-self: end;
 }
+
+@media screen and (max-width: 620px) {
+  .place__website {
+    align-self: flex-start;
+    width: 90%;
+    margin: 32px auto 32px;
+  }
+}
