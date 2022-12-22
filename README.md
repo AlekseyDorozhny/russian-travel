@@ -9,3 +9,4 @@
     * Использованы простые псевдоелементы (например:Hover)
     * Ведение удаленного репазитория в GitHub
 
+Ссылка на gh-pages: https://alekseydorozhny.github.io/russian-travel/

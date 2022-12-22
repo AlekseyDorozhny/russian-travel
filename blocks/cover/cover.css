@@ -1,8 +1,7 @@
 .cover {
-  width: 93%;
   margin: auto;
-  text-align: center;
   position: relative;
+  width: 92.5%;
 }
 
 @media screen and (max-width: 1024px) {

@@ -26,4 +26,9 @@
     margin-left: 0;
     margin-bottom: 32px;
   }
+
+  .footer__link:last-of-type {
+     margin-bottom: 48px;
+  }
+
 }

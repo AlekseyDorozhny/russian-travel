@@ -1,7 +1,7 @@
 .place {
   display: grid;
   grid-template-columns: 47% 1fr;
-  grid-template-rows: auto 460px;
+  grid-template-rows: auto auto;
   gap: 48px 40px;
   grid-template-areas:
   "title website"
@@ -11,7 +11,7 @@
 }
 
 .place:last-of-type {
-  margin-bottom: 92px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +23,6 @@
 @media screen and (max-width: 768px) {
   .place {
     gap: 48px 28px;
-    grid-template-rows: 92px 460px;
     margin-bottom: 73px;
   }
 }
