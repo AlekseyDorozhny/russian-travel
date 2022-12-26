@@ -1,9 +1,23 @@
 .footer {
   width: 93%;
-  margin: 92px auto 24px auto;
+  margin: 89px auto 24px auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin-top: 95px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+    width: 94%;
+  }
 }
 
 @media screen and (max-width: 690px) {

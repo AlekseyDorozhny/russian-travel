@@ -1,4 +1,7 @@
 .header__buttons {
     display: flex;
     align-items: flex-end;
+    position: relative;
+    bottom: 4px;
+    left: 4px;
 }

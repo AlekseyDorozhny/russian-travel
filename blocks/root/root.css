@@ -4,7 +4,6 @@
   -moz-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   font-family: 'Inter', Arial, sans-serif;
-  width: 100vw;
   max-width: 1280px;
   display: flex;
   flex-direction: column;

@@ -5,9 +5,9 @@
   color: #FFF;
   margin: 0;
   cursor: url(../../../images/Pointer.svg), auto;
+  transition: opacity 0.3s;
 }
 
 .place__link:hover {
   opacity: 0.8;
-  transition: opacity 0.3s;
 }
