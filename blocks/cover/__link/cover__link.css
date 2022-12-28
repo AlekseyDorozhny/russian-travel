@@ -2,7 +2,7 @@
   text-decoration: none;
   color: #fff;
   cursor: url(../../../images/Pointer.svg), auto;
-  width: 100%;
+  max-width: 100%;
   aspect-ratio: 1.6;
   margin: auto;
   display: flex;
@@ -12,8 +12,7 @@
   background-image: url('../../../images/train-station.jpg');
   text-align: center;
   background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 

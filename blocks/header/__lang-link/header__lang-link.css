@@ -12,10 +12,15 @@
   transition: opacity 0.3s;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header__lang-link {
-    font-size: 18px;
     position: relative;
     right: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
   }
 }
